@@ -1,18 +1,17 @@
 
 public class Rectangle {
-	
-	private float l=1;
-	private float b=1;
-	private float area;
-	private float perimeter;
-	public Rectangle(float l, float b, float area, float perimeter) {
+
+	private float l;
+	private float b;
+	private float aRect;
+	private float p;
+	public Rectangle(float l, float b, float aRect, float p) {
 		super();
 		this.l = l;
 		this.b = b;
-		this.area = area;
-		this.perimeter = perimeter;
+		this.aRect = aRect;
+		this.p = p;
 	}
-	
 	public float getL() {
 		return l;
 	}
@@ -25,19 +24,18 @@ public class Rectangle {
 	public void setB(float b) {
 		this.b = b;
 	}
-	public float getArea() {
-		return area;
+	public float getaRect() {
+		return aRect;
 	}
-	public void setArea(float area) {
-		this.area = area;
+	public void setaRect(float aRect) {
+		this.aRect = aRect;
 	}
-	public float getPerimeter() {
-		return perimeter;
+	public float getP() {
+		return p;
 	}
-	public void setPerimeter(float perimeter) {
-		this.perimeter = perimeter;
+	public void setP(float p) {
+		this.p = p;
 	}
-	
 	
 	
 }
